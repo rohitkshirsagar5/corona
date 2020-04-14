@@ -19,8 +19,8 @@
         var dom = document.getElementById('main');
         var chart = echarts.init(dom);
 
-          $.get('https://github.com/CSSEGISandData/COVID-19/blob/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv', function (data) {
-        //$.get('./time_series_covid19_confirmed_global.csv', function (data) {
+        //$.get('https://github.com/CSSEGISandData/COVID-19/blob/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv', function (data) {
+        $.get('./time_series_covid19_confirmed_global.csv', function (data) {
             var lines = data.split('\n');
 
             var result = [];
