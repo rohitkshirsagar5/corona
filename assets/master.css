@@ -1,0 +1,25 @@
+/*body {
+    margin: 0;
+    padding: 0;
+    font-family: Comic Sans, Comic Sans MS, cursive, sans-serif;
+    background: #ddd;
+}
+
+#main {
+    width: 1024px; 
+    height: 600px;
+    margin: 0 auto;
+}*/
+
+body {
+    padding: 0;
+    margin: 0;
+}
+html, body, #main {
+    height: 100%;
+    width: 100vw;
+}
+.leaflet-overlay-pane {
+    height: 100%;
+    min-height: 100%;
+}
