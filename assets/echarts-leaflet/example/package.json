@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "echarts": "^3.8.5",
+    "echarts": "^5.4.2",
     "echarts-leaflet": "^1.0.0",
     "leaflet": "^1.3.1"
   }
